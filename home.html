@@ -10,27 +10,27 @@
     <button class="open-button" onclick="openForm()">Chat</button>
 
 <div class="chat-popup" id="myForm">
-  <form action="" class="form-container">
+  <form action="post" class="form-container">
     <h1>I am Marry, your chatbot</h1>
-    <div class="main-container">
+    <section class="main-container">
         <div class="content-section">
            <h1 class="content-write">IRIS</h1>
            <div class="image-hello">
-            <span>Hello</span>
-            <img src="./Assest/images/Vector.png" alt="hand" width="20" height="20">
+            <i>Hello</i>
+            <img src="./assets/images/hand.png" alt="hand" width="20" height="20">
            </div>
           
            <h3 class="text">I am Iris, a Virtual Assistant
             How may I help you?</h3>
         </div>
-        <div class="list-section">
+        <main class="list-section">
             <div class="list">
                    <div class="icon">
-                     <img  style="position: absolute;top:50%;left:50%; left:50%;transform: translate(-50%,-50%);" src="./Assest/images/chatbot.png"  alt="hand" width="20" height="20">
+                     <img  style="position: absolute;top:50%;left:50%; left:50%;transform: translate(-50%,-50%);" src="./assets/images/chatbot.png"  alt="bot" width="20" height="20">
                    </div>
                    <div class="icon-text">
                     <span>Frequently Asked Questions</span>
-                    <img src="./Assest/images/Vector (2).png" alt="hand" width="10" height="20">
+                    <img src="./assets/images/question.png" alt="chatbot" width="10" height="20">
                    </div>
                    <div class="list-items" id="dropDownMenu">
                     <div class="listo">
@@ -47,7 +47,7 @@
                      </div>
 
                      <div class="listlast">
-                        <img src="./Assest/images/Vector.png" alt="hand" width="20" height="20">
+                        <img src="./assets/images/hand.png" alt="hand" width="20" height="20">
                         <span>Start a New Conversation</span>
                        </div>
                      
@@ -55,13 +55,13 @@
                  
             </div>
            
-        </div>
+        </main>
 
-    </div>
+    </section>
 
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
-  <script src="./index.js"></script>
+  <script src="./src.js"></script>
 </div>
 
 </body>
